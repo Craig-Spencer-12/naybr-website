@@ -1,3 +1,3 @@
 # Website for Naybr App
 
-Link: [www.naybr.dev](www.naybr.dev)
+Link: [naybr.dev](https://www.naybr.dev)
