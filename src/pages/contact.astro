@@ -1,0 +1,38 @@
+---
+import '../styles/global.css';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <section class="max-w-2xl mx-auto text-center">
+    <h1 class="text-4xl font-bold text-gray-900 mb-4">Contact Us</h1>
+    <p class="text-lg text-gray-700 mb-8">
+      We’d love to hear from you! Fill out the form below, and we'll get back to you as soon as possible.
+    </p>
+
+    <!-- Contact Form -->
+    <form class="space-y-4">
+      <input
+        type="text"
+        placeholder="Your Name"
+        class="w-full p-3 border border-gray-300 rounded-lg"
+      />
+      <input
+        type="email"
+        placeholder="Your Email"
+        class="w-full p-3 border border-gray-300 rounded-lg"
+      />
+      <textarea
+        placeholder="Your Message"
+        class="w-full p-3 border border-gray-300 rounded-lg"
+        rows="4"
+      ></textarea>
+      <button
+        type="submit"
+        class="w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-500"
+      >
+        Send Message
+      </button>
+    </form>
+  </section>
+</Layout>
