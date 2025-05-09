@@ -30,3 +30,7 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Blurry shadow */
     z-index: -1; /* Keep the shadow behind the content */
   }
+
+  * {
+    outline: 1px solid red;
+  }
