@@ -4,14 +4,14 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <section>
-    <h1 class="py-20 font-bold text-4xl fade-in-up" style="animation-delay: 0s">
+  <section class="px-4 sm:px-8">
+    <h1 class="py-10 font-bold text-[1.4rem] sm:text-4xl lg:pl-[calc((100vw-915px)/2)] fade-in-up" style="animation-delay: 0s">
       Connect through the universal <br />love of sharing and learning
     </h1>
 
-    <div class="flex items-center pb-20">
-        <div class="mr-5 sm:mr-10 md:mr-20 fade-in-up" style="animation-delay: 0.2s">
-          <h2 class="font-bold text-6xl">She</h2>
+    <div class="flex flex-col sm:flex-row items-center justify-center py-10">
+        <div class="sm:mr-10 md:mr-20 fade-in-up pb-5 sm:pb-0" style="animation-delay: 0.2s">
+          <h2 class="font-bold text-5xl sm:text-6xl">She</h2>
           <p class="text-2xl">Loves volleyball<br>Wants to learn to cook</p>
         </div>
         <img
@@ -21,27 +21,27 @@ import Layout from "../layouts/Layout.astro";
         />
     </div>
 
-    <div class="flex items-center pb-20">
+    <div class="flex flex-col sm:flex-row-reverse items-center justify-center sm:justify-between md:justify-center py-10">
+      <div class="m:ml-10 md:ml-20 fade-in-up pb-5 sm:pb-0" style="animation-delay: 0.8s">
+        <h2 class="font-bold text-6xl ">He</h2>
+        <p class="text-2xl">Loves to cook<br>Wants to learn volleyball</p>
+      </div>
         <img
           src="/cooking.jpg"
           alt="Cooking"
           class="rounded-3xl fade-in-up h-60 sm:h-70 md:h-85 lg:h-auto" style="animation-delay: 0.6s"
         />
-        <div class="ml-5 sm:ml-10 md:ml-20 fade-in-up" style="animation-delay: 0.8s">
-          <h2 class="font-bold text-6xl ">He</h2>
-          <p class="text-2xl">Loves to cook<br>Wants to learn volleyball</p>
-        </div>
     </div>
 
-    <div class="flex justify-center pb-20 text-4xl">
-      <div>
+    <div class="flex flex-col items-center justify-center pt-10 pb-20 text-2xl sm:text-4xl">
+
         <span class="font-bold fade-in-up" style="animation-delay: 1s">
           <p >Don't overthink it...<br>
-          <p class="pl-10">Download Naybr <del>today</del></p>
+          <p class="">Download Naybr <del>today</del></p>
         </span>
         
-        <p class="pl-100 pt-5 fade-in-up" style="animation-delay: 01.2s">Soon</p>
-      </div>
+        <p class="pl-60  sm:pl-100  fade-in-up" style="animation-delay: 01.2s">Soon</p>
+
   </div>
 
   </section>

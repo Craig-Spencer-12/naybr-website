@@ -4,8 +4,9 @@ import HeaderNavItem from "./HeaderNavItem.astro";
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="fixed z-50">
-  <nav class="flex flex-row items-center bg-zinc-50 w-screen">
+<header class="px-4 sm:px-8 lg:pl-[calc(((100vw-915px)/2)+32px)]">
+  <nav class="flex flex-row items-center bg-zinc-50 "> 
+    <!-- w-full -->
     <a href="/" >
       <img
         src="/naybr-light.svg"
