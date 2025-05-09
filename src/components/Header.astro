@@ -1,10 +1,22 @@
-<header class="bg-blue-600 text-white p-4">
-    <nav class="max-w-7xl mx-auto flex justify-between">
-      <a href="/" class="text-2xl font-bold">Naybr</a>
-      <ul class="flex space-x-4">
-        <li><a href="/" class="hover:underline">Home</a></li>
-        <li><a href="/about" class="hover:underline">About</a></li>
-        <li><a href="/contact" class="hover:underline">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+---
+import HeaderNavItem from "./HeaderNavItem.astro";
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="fixed z-50">
+  <nav class="flex flex-row items-center bg-zinc-50 w-screen">
+    <a href="/" >
+      <img
+        src="/naybr-light.svg"
+        alt="Naybr"  
+      />
+    </a>
+    <!-- <div class="flex space-x-[5vw] pr-[20vw]">
+      <HeaderNavItem href="/" label="Home"/>
+      <HeaderNavItem href="/about" label="About"/>
+      <HeaderNavItem href="/contact" label="Contact"/>
+    </div> -->
+  </nav>
+</header>
+  
