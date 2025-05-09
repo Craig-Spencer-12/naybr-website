@@ -1,0 +1,22 @@
+---
+import HeaderNavItem from "./HeaderNavItem.astro";
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="fixed z-50">
+  <nav class="flex flex-row items-center bg-zinc-50 w-screen">
+    <a href="/" >
+      <img
+        src="/naybr-light.svg"
+        alt="Naybr"  
+      />
+    </a>
+    <!-- <div class="flex space-x-[5vw] pr-[20vw]">
+      <HeaderNavItem href="/" label="Home"/>
+      <HeaderNavItem href="/about" label="About"/>
+      <HeaderNavItem href="/contact" label="Contact"/>
+    </div> -->
+  </nav>
+</header>
+  
